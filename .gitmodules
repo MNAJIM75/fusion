@@ -1,3 +1,6 @@
 [submodule "raylib-lua"]
 	path = raylib-lua
 	url = https://github.com/TSnake41/raylib-lua.git
+[submodule "pooling_game"]
+	path = pooling_game
+	url = https://github.com/MNAJIM75/pooling_game.git
