@@ -1,2 +1,3 @@
-./.git
-./*.exe
+.git
+*.exe
+raylib-lua

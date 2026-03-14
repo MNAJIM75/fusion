@@ -1,2 +1,3 @@
-fusion: main.c
+fusion: fusion.c
 	gcc -o $@ $^
+
