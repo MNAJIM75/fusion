@@ -6,7 +6,7 @@ LDFLAGS += raylib-lua/libraylua.a raylib-lua/luajit/src/libluajit.a raylib-lua/r
 AR ?= ar
 LUA ?= raylib-lua/luajit/src/luajit
 
-LDFLAGS += -lopengl32 -lgdi32 -lwinmm -static
+LDFLAGS += -lopengl32 -lgdi32 -lwinmm -lzmq
 
-fusion: fusion.c
+fusion: fusion.c request.c luabind.c
 	gcc -o $@ $(CFLAGS) $^ $(LDFLAGS)
